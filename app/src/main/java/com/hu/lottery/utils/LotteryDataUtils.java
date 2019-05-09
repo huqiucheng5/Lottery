@@ -157,19 +157,19 @@ public class LotteryDataUtils {
     }
 
     private int randomSsqRedBall() {
-        return (int) (Math.random() * (33 - 1) + 1);
+        return (int) (Math.random() * 33 + 1);
     }
 
     private int randomSsqBlueBall() {
-        return (int) (Math.random() * (16 - 1) + 1);
+        return (int) (Math.random() * 16 + 1);
     }
 
     private int randomDltRedBall() {
-        return (int) (Math.random() * (35 - 1) + 1);
+        return (int) (Math.random() * 35 + 1);
     }
 
     private int randomDltBlueBall() {
-        return (int) (Math.random() * (12 - 1) + 1);
+        return (int) (Math.random() * 12 + 1);
     }
 
     public String formatString(int str) {
